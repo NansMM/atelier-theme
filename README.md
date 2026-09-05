@@ -2,7 +2,7 @@
 
 A Home Assistant theme where **colour means state**. Rooms stay neutral until something happens: honey when the lights are on, terracotta when a door is open. One typeface, no decorative hues, readable at 12 px in both modes.
 
-> 🇫🇷 Thème Home Assistant né pour mes dashboards Mobile et Desktop : la couleur dit l'état, une seule famille de caractères, contrastes vérifiés. Installable via HACS.
+> 🇫🇷 Thème Home Assistant né pour mes trois dashboards : le téléphone, le Mac et la tablette murale de l'entrée, qui pivote entre portrait et paysage. La couleur dit l'état, une seule famille de caractères, contrastes vérifiés. Installable via HACS.
 
 | Night | Day |
 |---|---|
@@ -15,6 +15,7 @@ A Home Assistant theme where **colour means state**. Rooms stay neutral until so
 - **One typeface.** Sora, with a system fallback stack.
 - **Hierarchical radii.** Card 16, dialog 26, control 10, chip 999.
 - **Contrast ≥ 4.5:1 at 12 px** in both modes, with a single secondary grey.
+- **Three surfaces, one grammar.** Designed for a phone, a desktop and a wall tablet by the front door that rotates between portrait and landscape. The tablet adds a fixed side *post* for leaving and coming home (clock, weather, alarm, "I'm leaving"): the heaviest surface of each mode, with its own `--atelier-post-*` tokens.
 
 ## Installation
 
@@ -69,7 +70,7 @@ styles:
 
 ## What this repository is not
 
-The theme only. The button-card templates and the dashboards it was designed for are not included; they depend on button-card, card-mod, Bubble Card, Mushroom and kiosk-mode and are specific to one home.
+The theme only. The button-card templates and the three dashboards it was designed for (phone, desktop, entrance tablet) are not included; they depend on button-card, card-mod, Bubble Card, Mushroom and kiosk-mode and are specific to one home.
 
 ## Licence
 
