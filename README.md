@@ -6,7 +6,13 @@ A Home Assistant theme where **colour means state**. Rooms stay neutral until so
 
 | Night | Day |
 |---|---|
-| ![Night](docs/night.png) | ![Day](docs/day.png) |
+| ![Night](docs/tablet-night.png) | ![Day](docs/tablet-day.png) |
+
+The entrance tablet in landscape, and the same house on the phone:
+
+| Night | Day |
+|---|---|
+| <img src="docs/phone-night.png" alt="Night" width="260"> | <img src="docs/phone-day.png" alt="Day" width="260"> |
 
 ## Principles
 
