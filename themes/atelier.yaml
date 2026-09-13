@@ -50,6 +50,7 @@ Atelier:
   light-primary-color: "var(--atelier-primary)"
   dark-primary-color: "var(--atelier-primary)"
   state-icon-color: "var(--atelier-text2)"
+  state-media_player-active-color: "var(--atelier-primary)"
 
   # Named colours used by tile cards (color: amber, …)
   amber-color: "var(--atelier-c-amber)"
@@ -81,7 +82,9 @@ Atelier:
   mush-rgb-pink: "var(--atelier-rgb-pink)"
   mush-rgb-grey: "var(--atelier-rgb-grey)"
   mush-rgb-disabled: "var(--atelier-rgb-disabled)"
-  mush-rgb-state-media-player: "var(--atelier-rgb-pink)"
+  # Un lecteur qui joue est un contrôle actif : il prend la couleur interactive, comme les autres.
+  # Il portait le rose de la famille, ce qui faisait du rose l'accent dominant de toute vue Médias.
+  mush-rgb-state-media-player: "var(--atelier-rgb-primary)"
 
   # Bubble Card: pop-up background = page background, buttons = card background
   bubble-pop-up-main-background-color: "var(--primary-background-color)"
@@ -131,6 +134,7 @@ Atelier:
       atelier-c-purple: "#a99ce8"
       atelier-c-pink: "#d98fb3"
       atelier-c-grey: "#8f9a90"
+      atelier-rgb-primary: "229, 232, 225"
       atelier-rgb-amber: "230, 192, 90"
       atelier-rgb-orange: "232, 164, 104"
       atelier-rgb-red: "242, 143, 128"
@@ -178,6 +182,7 @@ Atelier:
       atelier-c-purple: "#5f5a86"
       atelier-c-pink: "#a05473"
       atelier-c-grey: "#7a817a"
+      atelier-rgb-primary: "74, 102, 57"
       atelier-rgb-amber: "154, 122, 28"
       atelier-rgb-orange: "180, 101, 44"
       atelier-rgb-red: "176, 67, 47"

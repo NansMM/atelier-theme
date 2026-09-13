@@ -16,7 +16,7 @@ The entrance tablet in landscape, and the same house on the phone:
 
 ## Principles
 
-- **Colour means state.** A card is neutral at rest. `--atelier-lit-*` when a room is lit, `--atelier-warn-*` when an access is open. Tile colours (`amber`, `red`, …) are remapped to the palette so nothing shouts.
+- **Colour means state.** A card is neutral at rest. `--atelier-lit-*` when a room is lit, `--atelier-warn-*` when an access is open. Tile colours (`amber`, `red`, …) are remapped to the palette so nothing shouts A player that is playing takes the interactive colour, like any other active control — not a hue of its own.
 - **Two moods, one system.** Night: near-black green, honey highlights, light-neutral controls. Day: lime-wash background, white cards, olive controls.
 - **One typeface.** Sora, with a system fallback stack.
 - **Hierarchical radii.** Card 16, dialog 26, control 10, chip 999.
@@ -66,7 +66,7 @@ styles:
 |---|---|
 | `--atelier-bg`, `--atelier-bg2`, `--atelier-card` | page, secondary surface, card |
 | `--atelier-text`, `--atelier-text2` | primary and secondary text |
-| `--atelier-primary`, `--atelier-on-primary` | interactive colour and text on it |
+| `--atelier-primary`, `--atelier-on-primary`, `--atelier-rgb-primary` | interactive colour, text on it, and its `r, g, b` form for Mushroom |
 | `--atelier-lit-bg`, `--atelier-lit-fg`, `--atelier-lit-shadow` | a lit room |
 | `--atelier-warn-bg`, `--atelier-warn-fg` | an open access |
 | `--atelier-inverse-bg`, `--atelier-inverse-fg` | inverted bar (e.g. "I'm leaving") |
